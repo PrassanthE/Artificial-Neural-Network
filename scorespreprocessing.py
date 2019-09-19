@@ -9,5 +9,3 @@ import pandas as pd
 dataset = pd.read_csv('scores.csv')
 a =  dataset.iloc[:, :].values
 b = []
-if a[:,[5]] == 1:
-    b.append(a.all())
